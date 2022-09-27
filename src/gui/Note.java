@@ -17,7 +17,7 @@ class Note extends JPanel {
         this.setLayout(new BorderLayout());
 
         // Varje Note har detta
-        note = new JTextField("Note here");
+        note = new JTextField("  Note");
         note.setPreferredSize(new Dimension(300, 20));
         this.add(note, BorderLayout.CENTER);
 
